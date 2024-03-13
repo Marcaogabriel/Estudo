@@ -16,4 +16,4 @@ while True:
         [ 2 ] Volume''')
         escolha1 = int(input('Qual desejas'))
         if escolha1 == 1:
-             p
+             "w"
