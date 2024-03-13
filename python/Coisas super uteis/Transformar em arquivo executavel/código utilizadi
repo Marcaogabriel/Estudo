@@ -1,0 +1,1 @@
+No terminal você vai digitar pyinstaller --onefile Nome do app, e se o app for de abrir outra janela coloque -w

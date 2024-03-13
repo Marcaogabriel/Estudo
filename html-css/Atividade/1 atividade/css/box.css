@@ -1,0 +1,23 @@
+#box{
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    height: auto;
+    width: 1000px;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 5px 5px 15px rgb(172, 172, 172);
+
+}
+
+
+.box1{
+    background-color: #5D6E9A;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 5px 5px 15px rgb(172, 172, 172);
+}
+
+#centru{
+    text-align: center;
+}
+

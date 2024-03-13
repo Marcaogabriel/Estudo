@@ -1,0 +1,18 @@
+850
+2230
+1500
+3500
+5000
+850
+2230
+1500
+3500
+5000
+Lg
+Sansung
+Motorola
+Xiaomi
+Iphone
+
+['Lg', 'Samsung', 'Motorola', 'Xiaomi', 'Iphone']
+[850, 2230, 1500, 3500, 5000]
