@@ -1,12 +1,12 @@
 #box{
     background-color: rgb(255, 255, 255);
     border-radius: 15px;
-    height: auto;
+    height: 2000px;
     width: 1000px;
-    padding: 20px;
-    margin: auto;
-    box-shadow: 5px 5px 15px rgb(172, 172, 172);
-
+    padding: 20px; 
+    box-shadow: 5px 5px 15px rgb(172, 172, 172); 
+    margin: 10px;
+    float: left;
 }
 
 
@@ -14,10 +14,27 @@
     background-color: #5D6E9A;
     padding: 20px;
     margin: auto;
+    width: 1310px;
     box-shadow: 5px 5px 15px rgb(172, 172, 172);
+    float: inline-end;
+}
+
+.box2{
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    height: 2000px;
+    width: 225px;
+    padding: 20px; 
+    box-shadow: 5px 5px 15px rgb(172, 172, 172); 
+    margin: 10px;
+    float: right;
 }
 
 #centru{
     text-align: center;
 }
 
+#cama{
+    width: 100px;
+    height: 100px;
+}

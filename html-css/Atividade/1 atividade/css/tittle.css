@@ -19,3 +19,8 @@ input{
     margin: auto;
     color: black
 }
+
+aside{
+    margin: 15px;
+    float: right;
+}
