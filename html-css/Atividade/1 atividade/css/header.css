@@ -41,6 +41,11 @@ a{
     font-weight: 790;
     text-decoration: none;
     margin-right: 30px;
+    transition: transform 150ms linear;
+}
+a:hover{
+    transform: scale(1.08);
+    opacity: 0.8;
 }
 
 .clica{
