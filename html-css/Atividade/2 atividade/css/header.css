@@ -1,0 +1,42 @@
+body{
+    background-color: rgba(128, 128, 128, 0.267);
+}
+
+.header{
+    display: flexbox;
+    justify-content: space-between;
+    position: fixed;
+    background-color: aqua;  
+    width: 100%;
+    text-align: center;  
+}
+
+.menu {
+    list-style: none; 
+    float: right; 
+}
+
+.menu li {
+    position: relative;
+    float: left; 
+}
+
+#botao{
+    background-color: #7B8396;
+    padding: 20px 25px 20px 15px;
+    border: 0px;
+    align-items: center;
+    box-shadow: 5px 5px 0px black;
+    transition: transform 150ms linear;
+}
+
+#botao:hover{
+    transform: scale(1.08);
+    opacity: 0.8;
+}
+
+
+
+
+
+
