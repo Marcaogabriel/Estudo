@@ -1,7 +1,18 @@
 a{
     text-decoration: none; 
+    margin-right: 30px; 
+    color: white;
 }
 
 li{
     padding: 10px;
+}
+
+h1{
+   margin: auto;
+}
+
+img{
+    width: 150px;
+    margin-left: 10px;
 }

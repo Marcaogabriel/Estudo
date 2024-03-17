@@ -1,24 +1,52 @@
+@keyframes giro {
+    to {transform: rotate(360deg);}
+  }
+  .giro:before {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    margin-left: -10px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    border-top-color: #333;
+    animation: giro .6s linear infinite;
+    margin: auto;
+    bottom: 10%;
+  }
+
 body{
     background-color: rgba(128, 128, 128, 0.267);
+    
 }
-
-.header{
-    display: flexbox;
+header{
+    display: flex;
     justify-content: space-between;
-    position: fixed;
-    background-color: aqua;  
-    width: 100%;
-    text-align: center;  
+    
+}
+.header{ 
+    justify-content: space-between;
+    position: relative;
+    background-color: #32323E;  
+    width: auto; 
+    margin-right: 15px;
+    padding: 10px 0px;
+    
 }
 
 .menu {
     list-style: none; 
-    float: right; 
+    float: right;  
 }
 
 .menu li {
     position: relative;
-    float: left; 
+    float: left;   
+    margin-top: 20px ;
 }
 
 #botao{
@@ -31,6 +59,15 @@ body{
 }
 
 #botao:hover{
+    transform: scale(1.08);
+    opacity: 0.8;
+    
+}   
+a{
+        transition: transform 150ms linear;
+}
+
+a:hover{
     transform: scale(1.08);
     opacity: 0.8;
 }
