@@ -1,0 +1,10 @@
+.rodape{ 
+    background-color: #e6e6e6;  
+    width: 100%; 
+    box-shadow: 0 0 2px rgb(211, 211, 211);
+    margin-right: 15px;
+    padding: 10px 0px;
+    float: inline-end;
+    height: 200px;
+}
+ 

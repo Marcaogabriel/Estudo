@@ -1,11 +1,22 @@
 a{
     text-decoration: none; 
     margin-right: 30px; 
-    color: white;
+    color: white; 
+}
+
+a:hover{ 
+    color: #00f7ff;
 }
 
 li{
     padding: 10px;
+    transition: transform 150ms linear;
+}
+
+li:hover{
+    transform: scale(1.08);
+    opacity: 0.8;
+    color: #00f7ff;
 }
 
 h1{
@@ -15,4 +26,13 @@ h1{
 img{
     width: 150px;
     margin-left: 10px;
+}
+
+.a-G{
+    font-size: 80px;
+     
+}
+ 
+p{
+   margin: auto;
 }

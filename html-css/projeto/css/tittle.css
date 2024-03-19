@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Madimi+One&display=swap');
+
+.a-detalhe{
+    text-decoration: none; 
+    margin-right: 30px; 
+    color: rgb(0, 0, 0); 
+}
+
+
+.a-detalhe:hover{ 
+
+    color: #6b6897;
+}
+
+
+li{
+    padding: 10px; 
+    text-decoration: none;
+}
+
+
+h1{
+    padding: 15px;
+    color: #004d80;
+}
+
+
+h2{
+    padding: 15px;
+    color: #004d80;
+}
+
+
+.fs-50{
+    font-size: 50px;
+}
+
+
+.pd-40{
+    padding-left:  70px; 
+    font-family: "Courgette", cursive,   Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(255, 107, 132);
+}
+
+.img-ti{
+    border-radius: 5px;
+    width: 200px;
+    height: 160px;
+}
+
+.float-left{    
+    margin-top: 130px;
+}
+
+.img-ti-G{
+    width: 350px;
+    height: 250px;
+}
+
+.img-ti-M{
+    width: 250px;
+    height: 150px;
+}
+
+#cor{
+    color: rgba(250, 250, 250, 0.822);
+}
+
+.i50x50{
+    width: 50px;
+    height: 50px;
+    border-radius: 90px;
+}
+
+.list{
+    list-style: none;
+    float: left;
+}
+
+.list li {
+    position: relative;
+    float: left;   
+    margin-top: 5px ;
+    font-size: 25px;
+}
+ 
+.normal{
+    color: black;
+}
+
+.centro{
+    margin: 25px;
+    font-size: 20px;
+    text-align: center;
+}

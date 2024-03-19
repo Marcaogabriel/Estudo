@@ -12,8 +12,8 @@
     margin-top: -10px;
     margin-left: -10px;
     border-radius: 50%;
-    border: 2px solid #ccc;
-    border-top-color: #333;
+    border: 2px solid #000000;
+    border-top-color: #ff0606;
     animation: giro .6s linear infinite;
     margin: auto;
     bottom: 10%;
@@ -32,7 +32,7 @@ header{
     justify-content: space-between;
     position: relative;
     background-color: #32323E;  
-    width: auto; 
+    width: 100%; 
     margin-right: 15px;
     padding: 10px 0px;
     
@@ -50,7 +50,7 @@ header{
 }
 
 #botao{
-    background-color: #7B8396;
+    background-color: #7b8396e7;
     padding: 20px 25px 20px 15px;
     border: 0px;
     align-items: center;
@@ -63,17 +63,7 @@ header{
     opacity: 0.8;
     
 }   
-a{
-        transition: transform 150ms linear;
+
+section{
+    align-items: center;
 }
-
-a:hover{
-    transform: scale(1.08);
-    opacity: 0.8;
-}
-
-
-
-
-
-

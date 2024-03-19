@@ -7,8 +7,7 @@ header{
     background-color:#5D6E9A;
     padding: 10px 20px;
     border-bottom: 7px solid #000;
-    justify-content: space-between;
-    position: fixed;
+    justify-content: space-between; 
 }
 
 img{

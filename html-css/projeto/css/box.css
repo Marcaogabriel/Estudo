@@ -1,0 +1,56 @@
+#box{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    height: auto;
+    width: auto;
+    padding: 20px; 
+    box-shadow: 3px 3px 10px rgb(172, 172, 172); 
+    margin: 5px 15px 5px 5px; 
+    float: left;
+    transition: transform 150ms linear;
+    text-align: center;
+}
+
+#box:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+ 
+#box1{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    height: auto;
+    width: auto;
+    padding: 20px; 
+    box-shadow: 3px 3px 10px rgb(172, 172, 172); 
+    margin: 20px 30px 5px 5px; 
+    float: left;
+    transition: transform 150ms linear;  
+    text-align: center;   
+}
+
+#box1:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+#box2{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    height: auto;
+    width: auto;
+    padding: 20px; 
+    box-shadow: 3px 3px 10px rgb(172, 172, 172); 
+    margin: 20px 30px 5px 5px; 
+    float: left;
+    transition: transform 150ms linear;  
+    text-align: center;   
+}
+
+#box2:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+ 
+ 
+
