@@ -95,3 +95,47 @@ h2{
     font-size: 20px;
     text-align: center;
 }
+
+.centro1{
+    margin: 25px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.centro2{
+    padding-right: 150px;
+    margin: 25px; 
+    text-align: right;
+}
+
+
+.pd-20{
+    padding: 20px;
+    float: left;
+}
+
+.fs-20{
+    font-size: 20px;
+}
+ 
+.none{
+    text-decoration: none;
+}
+ 
+ #sotu{
+    width: 60%;
+    height: auto;
+ }
+
+ #sotu1{
+    width: 50%;
+    height: 10%;
+ }
+
+#botao{
+    padding: 20px;
+    background-color: rgb(255, 143, 143);
+    border-radius: 5px; 
+    font-size: 20px; 
+ 
+ }

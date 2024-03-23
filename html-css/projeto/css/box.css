@@ -52,5 +52,24 @@
     opacity: 0.8;
 }
  
+.box22{
+    float: left;
+}
  
+.box20{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    height: auto; 
+    width: 100%;  
+    margin: auto;  
+}
 
+.box21{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    height: auto; 
+    width: 100%; 
+    margin: auto;  
+}
+
+ 
