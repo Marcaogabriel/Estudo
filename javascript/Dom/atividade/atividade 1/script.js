@@ -16,7 +16,7 @@ function renderusuariomostrar() {      // Mostra para o usuario
     });
 }
 
-function tracarlinha() {      // Mostra para o usuario
+function tracarlinha() {      // traçar a linha
     usuariomostrar.innerHTML = '';      // Evitar que duplique ou misture usuarios
     usuarios.forEach((usuario, indice) => {      // é usado para percorrer a array usuario
         const li = document.createElement('li');    // Criar o elemento li  
@@ -64,10 +64,10 @@ function deletarusuario(indice) { // Apagar
     }
 }
 
-function traçarusuario(indice) {  
-    tracarlinha(); // renderizar
+function traçarusuario() {   // deixar traçado
+    tracarlinha(); // renderizar a linha traçada
 }
 
-function tirartraço(indice){
-    renderusuariomostrar()
+function tirartraço(){ // retirar o traço
+    renderusuariomostrar() // Renderizar a linha
 }
