@@ -1,5 +1,5 @@
-const usuarioFormulario = document.getElementById('userForm');   //Lista de formularios
-const usuariomostrar = document.getElementById('mostrar');      //Lista de usuarios
+const usuarioFormulario = document.getElementById('formulario');   //Lista de formularios
+const usuariomostrar = document.getElementById('lista');      //Lista de usuarios
 let usuarios = [];         // array para armazenar
 
 function renderusuariomostrar() {      // Mostra para o usuario
