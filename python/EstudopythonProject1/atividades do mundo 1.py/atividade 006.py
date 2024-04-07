@@ -1,5 +1,0 @@
-n = int(input('Escolha um número: '))
-c = n ** (1/2)
-print('O número \033[35m{}\033[m multiplicado por \033[36m2\033[m é \033[31m{}\033[m'.format(n, n*2))
-print('O número \033[35m{}\033[m multiplicado por \033[37m3\033[m é \033[32m{}\033[m'.format(n, n*3))
-print('A raiz quadrada do número \033[33m{}\033[m é \033[34m{}\033[m'.format(n, c))

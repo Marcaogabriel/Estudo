@@ -1,6 +1,0 @@
-S = float(input('Qual o deslocamento final: '))
-So = float(input('Qual o deslocamento inicial: '))
-t = float(input('Qual o tempo final: '))
-to = float(input('Qual o tempo inicial: '))
-V = (S - So) / (t - to)
-print('Então Teste de python Velocidade média é igual Teste de python {:.2f} Km/h'.format(V))
