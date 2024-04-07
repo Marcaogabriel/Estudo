@@ -17,6 +17,7 @@
     margin: 5px;
     background-color: rgb(241, 226, 255);
     transition: transform 150ms linear;
+    cursor: pointer;
 }
 
 .buttons button:hover{
