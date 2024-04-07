@@ -7,7 +7,7 @@ function renderusuariomostrar() {      // Mostra para o usuario
     usuarios.forEach((usuario, indice) => {      // é usado para percorrer a array usuario
         const li = document.createElement('li');    // Criar o elemento li  
         li.innerHTML = ` 
-            <strong>Nome:</strong> ${usuario.name} - <strong>Email:</strong> ${usuario.email} <strong>Idade: </strong>${usuario.idade} <strong>Estado: </strong>${usuario.estado}
+            <strong>Nome:</strong> ${usuario.name} | <strong>Email:</strong> ${usuario.email} | <strong>Idade: </strong>${usuario.idade} | <strong>Estado: </strong>${usuario.estado}
             <button onclick="Editarusuario(${indice})">Editar</button>
             <button onclick="traçarusuario(${indice})">Traçar</button>
             <button onclick="deletarusuario(${indice})">Excluir</button>
@@ -21,7 +21,7 @@ function tracarlinha() {      // traçar a linha
     usuarios.forEach((usuario, indice) => {      // é usado para percorrer a array usuario
         const li = document.createElement('li');    // Criar o elemento li  
         li.innerHTML = ` 
-            <del><strong>Nome:</strong> ${usuario.name} - <strong>Email:</strong> ${usuario.email} <strong>Idade: </strong>${usuario.idade} <strong>Estado: </strong>${usuario.estado}</del> 
+            <del><strong>Nome:</strong> ${usuario.name} | <strong>Email:</strong> ${usuario.email} | <strong>Idade: </strong>${usuario.idade} | <strong>Estado: </strong>${usuario.estado}</del> 
             <button onclick="Editarusuario(${indice})">Editar</button>
             <button onclick="tirartraço(${indice})">Retirar traço</button>
             <button onclick="deletarusuario(${indice})">Excluir</button>
