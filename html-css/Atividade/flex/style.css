@@ -1,0 +1,21 @@
+ 
+
+.flex-box{
+    display: flex;
+    align-items: flex-end;
+    flex-flow: column-reverse;
+}
+ 
+
+.flex-box1{
+    display: flex;
+    order: 1;
+    flex-wrap: wrap;
+} 
+
+.flex-box2{
+    display: flex;
+    justify-self: unset;
+    flex-flow: row;
+
+}
