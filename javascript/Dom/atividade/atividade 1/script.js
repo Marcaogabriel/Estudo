@@ -8,9 +8,9 @@ function renderusuariomostrar() {      // Mostra para o usuario
         const li = document.createElement('li');    // Criar o elemento li  
         li.innerHTML = ` 
             <strong>Nome:</strong> ${usuario.name} | <strong>Email:</strong> ${usuario.email} | <strong>Idade: </strong>${usuario.idade} | <strong>Estado: </strong>${usuario.estado}
-            <button onclick="Editarusuario(${indice})">Editar</button>
-            <button onclick="traçarusuario(${indice})">Traçar</button>
-            <button onclick="deletarusuario(${indice})">Excluir</button>
+            <button class="button1" onclick="Editarusuario(${indice})">Editar</button>
+            <button class="button2" onclick="traçarusuario(${indice})">Traçar todos</button>
+            <button class="button3" onclick="deletarusuario(${indice})">Excluir</button>
         `;                             //Foi usado para misturar o html e js, além disso para criar o botão de editar e excluir e suas funcionalidades
         usuariomostrar.appendChild(li);                // Adiciona o novo elemento na interface
     });
@@ -22,11 +22,14 @@ function tracarlinha() {      // traçar a linha
         const li = document.createElement('li');    // Criar o elemento li  
         li.innerHTML = ` 
             <del><strong>Nome:</strong> ${usuario.name} | <strong>Email:</strong> ${usuario.email} | <strong>Idade: </strong>${usuario.idade} | <strong>Estado: </strong>${usuario.estado}</del> 
-            <button onclick="Editarusuario(${indice})">Editar</button>
-            <button onclick="tirartraço(${indice})">Retirar traço</button>
-            <button onclick="deletarusuario(${indice})">Excluir</button>
+            <button class="button1" onclick="Editarusuario(${indice})">Editar</button>
+            <button class="button2" onclick="tirartraço(${indice})">Retirar todos os traços</button>
+            <button class="button3" onclick="deletarusuario(${indice})">Excluir</button>
         `;                             //Foi usado para misturar o html e js, além disso para criar o botão de editar e excluir e suas funcionalidades
-        usuariomostrar.appendChild(li);                // Adiciona o novo elemento na interface
+        usuariomostrar.appendChild(li);  
+        
+        
+        // Adiciona o novo elemento na interface
     });
 }
 

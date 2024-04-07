@@ -59,3 +59,21 @@ input[type="submit"]:hover {
     margin-left: 5px;
     cursor: pointer;
 }
+
+.button1 {
+    color: #07cf00;
+    background-color: #fff; 
+    border-radius: 3px;
+}
+
+.button2 {
+    color: rgb(0, 183, 255);
+    background-color: #ffffff;
+    border-radius: 3px;
+}
+
+.button3 {
+    color: #ff0000;
+    background-color: #fff;
+    border-radius: 3px;
+}
