@@ -10,7 +10,6 @@ function renderusuariomostrar() {      // Mostra para o usuario
             <strong>Nome:</strong> ${usuario.name} - <strong>Email:</strong> ${usuario.email} <strong>Idade: </strong>${usuario.idade} <strong>Estado: </strong>${usuario.estado}
             <button onclick="Editarusuario(${indice})">Editar</button>
             <button onclick="traçarusuario(${indice})">Traçar</button>
-            <button onclick="tirartraço(${indice})">Retirar traço</button>
             <button onclick="deletarusuario(${indice})">Excluir</button>
         `;                             //Foi usado para misturar o html e js, além disso para criar o botão de editar e excluir e suas funcionalidades
         usuariomostrar.appendChild(li);                // Adiciona o novo elemento na interface
@@ -24,7 +23,6 @@ function tracarlinha() {      // Mostra para o usuario
         li.innerHTML = ` 
             <del><strong>Nome:</strong> ${usuario.name} - <strong>Email:</strong> ${usuario.email} <strong>Idade: </strong>${usuario.idade} <strong>Estado: </strong>${usuario.estado}</del> 
             <button onclick="Editarusuario(${indice})">Editar</button>
-            <button onclick="traçarusuario(${indice})">Traçar</button>
             <button onclick="tirartraço(${indice})">Retirar traço</button>
             <button onclick="deletarusuario(${indice})">Excluir</button>
         `;                             //Foi usado para misturar o html e js, além disso para criar o botão de editar e excluir e suas funcionalidades
