@@ -9,6 +9,23 @@ function renderusuariomostrar() {      // Mostra para o usuario
         li.innerHTML = ` 
             <strong>Nome:</strong> ${usuario.name} - <strong>Email:</strong> ${usuario.email} <strong>Idade: </strong>${usuario.idade} <strong>Estado: </strong>${usuario.estado}
             <button onclick="Editarusuario(${indice})">Editar</button>
+            <button onclick="traçarusuario(${indice})">Traçar</button>
+            <button onclick="tirartraço(${indice})">Retirar traço</button>
+            <button onclick="deletarusuario(${indice})">Excluir</button>
+        `;                             //Foi usado para misturar o html e js, além disso para criar o botão de editar e excluir e suas funcionalidades
+        usuariomostrar.appendChild(li);                // Adiciona o novo elemento na interface
+    });
+}
+
+function tracarlinha() {      // Mostra para o usuario
+    usuariomostrar.innerHTML = '';      // Evitar que duplique ou misture usuarios
+    usuarios.forEach((usuario, indice) => {      // é usado para percorrer a array usuario
+        const li = document.createElement('li');    // Criar o elemento li  
+        li.innerHTML = ` 
+            <del><strong>Nome:</strong> ${usuario.name} - <strong>Email:</strong> ${usuario.email} <strong>Idade: </strong>${usuario.idade} <strong>Estado: </strong>${usuario.estado}</del> 
+            <button onclick="Editarusuario(${indice})">Editar</button>
+            <button onclick="traçarusuario(${indice})">Traçar</button>
+            <button onclick="tirartraço(${indice})">Retirar traço</button>
             <button onclick="deletarusuario(${indice})">Excluir</button>
         `;                             //Foi usado para misturar o html e js, além disso para criar o botão de editar e excluir e suas funcionalidades
         usuariomostrar.appendChild(li);                // Adiciona o novo elemento na interface
@@ -47,4 +64,12 @@ function deletarusuario(indice) { // Apagar
         usuarios.splice(indice, 1); // O objeto clicado "o splice funciona(Qual objeto, qntd ex: 1, 2, 3...)"
         renderusuariomostrar(); // renderizar
     }
+}
+
+function traçarusuario(indice) {  
+    tracarlinha(); // renderizar
+}
+
+function tirartraço(indice){
+    renderusuariomostrar()
 }

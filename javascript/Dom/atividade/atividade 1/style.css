@@ -22,7 +22,7 @@ h2 {
 
 input[type="text"],
 input[type="email"],
-input[type="idade"],
+input[type="number"],
 input[type="estado"],
 input[type="submit"] {
     width: 100%;
