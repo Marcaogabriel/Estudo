@@ -1,0 +1,19 @@
+.buttono{
+    height: 28px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    outline: none;
+    background-color: rgba(197, 197, 197, 0.24);
+    border-radius: 0px;
+    font-size: 12px;
+    padding: 5px 10px;
+    font-weight: bold;
+    transition: transform 0.15s linear;
+
+}
+
+.buttono:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(1px 1px 3px gray);
+    opacity: 0.8;
+}

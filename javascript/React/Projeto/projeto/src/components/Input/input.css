@@ -1,0 +1,18 @@
+.input{
+    width: 700px;
+    height: 27px;
+    border-radius: 0px;
+    border: 1px solid #ccc;
+    outline: none;
+    background-color: rgba(197, 197, 197, 0.24);
+}
+
+.button{
+    height: 28px;
+    width: 30px;
+    border-radius: 0px;
+    border: 1px solid #ccc;
+    outline: none;
+    cursor: pointer;
+
+}
